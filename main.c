@@ -25,8 +25,14 @@ NODE creatbst(NODE root, int key)
             cur=cur->left;
         else
             cur=cur->right;
+     
 
     }
+      if (key<cur->data)
+            prev->left;
+         else
+            prev->right=temp;
+         return root;
 
 }
 void preorder (NODE root)
@@ -92,6 +98,7 @@ int main()
 return 0;
 
 }
+
 
 
 
