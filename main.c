@@ -28,8 +28,8 @@ NODE creatbst(NODE root, int key)
      
 
     }
-      if (key<cur->data)
-            prev->left;
+      if (key<prev->data)
+            prev->left=temp;
          else
             prev->right=temp;
          return root;
@@ -98,6 +98,7 @@ int main()
 return 0;
 
 }
+
 
 
 
